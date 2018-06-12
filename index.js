@@ -1,13 +1,13 @@
 const path = require('path');
 
-module.exports = function nuxtLogger(moduleOptions) {
-  const options = Object.assign({}, this.options.nuxtLogger, moduleOptions);
+module.exports = function nuxtLog(moduleOptions) {
+  const options = Object.assign({}, this.options.nuxtLog, moduleOptions);
 
   // Register plugin
   this.addPlugin({
     src: path.resolve(__dirname, 'plugin.js'),
     ssr: false,
-    fileName: 'logger.js',
+    fileName: 'nuxtLog.js',
     options,
   });
 };

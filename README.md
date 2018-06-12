@@ -1,13 +1,13 @@
-# nuxt-logger
+# nuxt-log
 
 > A logger module for Nuxt.js using [vuejs-logger](https://github.com/justinkames/vuejs-logger)
 
 ## Setup
-- Add `nuxt-logger` dependency using yarn or npm to your project
-- Add `nuxt-logger` to `modules` section of `nuxt.config.js`
+- Add `nuxt-log` dependency using yarn or npm to your project
+- Add `nuxt-log` to `modules` section of `nuxt.config.js`
 
 ```js
-const loggerOptions = {
+const logOptions = {
   // optional : defaults to true if not specified
   isEnabled: true,
   // required ['debug', 'info', 'warn', 'error', 'fatal']
@@ -26,7 +26,7 @@ const loggerOptions = {
 
 {
   modules: [
-   ['nuxt-logger', loggerOptions],
+   ['nuxt-log', logOptions],
   ]
 }
 ```
