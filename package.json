@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-logger",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "logger",
+    "vue",
+    "nuxt",
+    "vuejs-logger"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/webcore-it/nuxt-logger",
+  "homepage": "https://github.com/webcore-it/nuxt-logger",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "vuejs-logger": "^1.4.0"
+  }
+}
